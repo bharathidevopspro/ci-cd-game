@@ -5,7 +5,7 @@ provider "aws" {
 resource "aws_instance" "game_server" {
   ami           = "ami-0eae3ae20072d82c9" 
   instance_type = "t3.small"
-  key_name      = "new"
+  key_name      = "new.pem"
 
     vpc_security_group_ids = [aws_security_group.bharathigame.id]
 
