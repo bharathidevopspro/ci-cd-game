@@ -1,5 +1,5 @@
 provider "aws" {
-  region = "us-east-1 (N. Virginia)"
+  region = "us-east-1"
 }
 
 resource "aws_instance" "game_server" {
